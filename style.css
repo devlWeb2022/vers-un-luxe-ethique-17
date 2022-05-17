@@ -1,0 +1,1268 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(/Roboto-Regular.ttf);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+}
+
+#st {
+  position: fixed;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#logo {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 80px;
+}
+
+#ethos {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+#md {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+#idl {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+#vintage {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+#adv {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.text1 {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-align: justify;
+  width: 800px;
+}
+
+#text1 {
+  margin-top: 670px;
+  font-size: 0.7rem;
+  text-align: justify;
+  width: 800px;
+}
+
+#text2 {
+  margin-top: 670px;
+  font-size: 0.7rem;
+  text-align: justify;
+  width: 800px;
+}
+
+#text3 {
+  margin-top: 670px;
+  font-size: 0.7rem;
+  text-align: justify;
+  width: 800px;
+}
+
+#text4 {
+  margin-top: 670px;
+  font-size: 0.7rem;
+  text-align: justify;
+  width: 800px;
+}
+
+#text5 {
+  margin-top: 670px;
+  font-size: 0.7rem;
+  text-align: justify;
+  width: 800px;
+}
+
+main {
+  height: 500px;
+  margin-top: 170px;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#cp {
+  margin-top: -310px;
+  text-transform: uppercase;
+  position: fixed;
+}
+
+#ig {
+  margin-top: -310px;
+  text-transform: uppercase;
+  margin-left: 800px;
+  position: fixed;
+}
+
+#contact {
+  margin-top: -70px;
+  text-transform: uppercase;
+  margin-left: 1780px;
+  position: fixed;
+}
+
+#ml {
+  margin-top: -310px;
+  text-transform: uppercase;
+  margin-left: 1700px;
+  position: fixed;
+}
+
+.titre1 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  main {
+    margin-top: 40px;
+    height: 280px;
+  }
+
+  .titre1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 0.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #text1 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 300px;
+  }
+
+  #ethos {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  #text2 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 300px;
+  }
+
+  #md {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  #text3 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 300px;
+  }
+
+  #idl {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  #text4 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 300px;
+  }
+
+  #vintage {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  #text5 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 300px;
+  }
+
+  #adv {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 300px;
+  }
+
+  #st {
+    position: fixed;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 0.5rem;
+  }
+
+  #logo {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 40px;
+  }
+
+  #ig {
+    font-size: 0.5rem;
+    margin-top: 150px;
+    margin-left: 150px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.5rem;
+    margin-top: 150px;
+    text-transform: uppercase;
+    margin-left: 5px;
+  }
+
+  #contact {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 320px;
+    margin-top: -32px;
+  }
+
+  #ml {
+    font-size: 0.5rem;
+    margin-top: 150px;
+    text-transform: uppercase;
+    margin-left: 280px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  main {
+    margin-top: 40px;
+    height: 280px;
+  }
+
+  .titre1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 0.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #text1 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 700px;
+  }
+
+  #ethos {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text2 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 700px;
+  }
+
+  #md {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text3 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 700px;
+  }
+
+  #idl {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text4 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 700px;
+  }
+
+  #vintage {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text5 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 700px;
+  }
+
+  #adv {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #st {
+    position: fixed;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 0.5rem;
+  }
+
+  #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 710px;
+  }
+
+  #ig {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 70px;
+  }
+
+  #contact {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 640px;
+  }
+
+  #ml {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 700px;
+  }
+
+  #btn1 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 570px;
+  }
+
+  #btn2 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 600px;
+  }
+
+  #btn3 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 630px;
+  }
+
+  #btn4 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 660px;
+  }
+
+  #btn5 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 690px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  main {
+    margin-top: 40px;
+    height: 280px;
+  }
+
+  .titre1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 0.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #text1 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 500px;
+  }
+
+  #ethos {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text2 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 500px;
+  }
+
+  #md {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text3 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 500px;
+  }
+
+  #idl {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text4 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 500px;
+  }
+
+  #vintage {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text5 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 500px;
+  }
+
+  #adv {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #st {
+    position: fixed;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 0.5rem;
+  }
+
+  #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 510px;
+  }
+
+  #ig {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 70px;
+  }
+
+  #contact {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 440px;
+  }
+
+  #ml {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 500px;
+  }
+
+  #btn1 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 370px;
+  }
+
+  #btn2 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 400px;
+  }
+
+  #btn3 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 430px;
+  }
+
+  #btn4 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 460px;
+  }
+
+  #btn5 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 490px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  main {
+    margin-top: 40px;
+    height: 280px;
+  }
+
+  .titre1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 0.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #text1 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 900px;
+  }
+
+  #ethos {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text2 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 900px;
+  }
+
+  #md {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text3 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 900px;
+  }
+
+  #idl {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text4 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 900px;
+  }
+
+  #vintage {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text5 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 900px;
+  }
+
+  #adv {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #st {
+    position: fixed;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 0.7rem;
+  }
+
+  #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 910px;
+  }
+
+  #ig {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 70px;
+  }
+
+  #contact {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 810px;
+  }
+
+  #ml {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 870px;
+  }
+
+  #btn1 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 770px;
+  }
+
+  #btn2 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 800px;
+  }
+
+  #btn3 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 830px;
+  }
+
+  #btn4 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 860px;
+  }
+
+  #btn5 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 890px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  main {
+    margin-top: 40px;
+    height: 280px;
+  }
+
+  .titre1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 0.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #text1 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 900px;
+  }
+
+  #ethos {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text2 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 900px;
+  }
+
+  #md {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text3 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 900px;
+  }
+
+  #idl {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text4 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 900px;
+  }
+
+  #vintage {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text5 {
+    margin-top: 70px;
+    font-size: 0.7rem;
+    width: 900px;
+  }
+
+  #adv {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #st {
+    position: fixed;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 0.7rem;
+  }
+
+  #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 1110px;
+  }
+
+  #ig {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 70px;
+  }
+
+  #contact {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 1010px;
+  }
+
+  #ml {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 1070px;
+  }
+
+  #btn1 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 770px;
+  }
+
+  #btn2 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 800px;
+  }
+
+  #btn3 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 830px;
+  }
+
+  #btn4 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 860px;
+  }
+
+  #btn5 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 890px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  main {
+    margin-top: 40px;
+    height: 280px;
+  }
+
+  .titre1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 0.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #text1 {
+    margin-top: 70px;
+    font-size: 1rem;
+    width: 900px;
+  }
+
+  #ethos {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text2 {
+    margin-top: 70px;
+    font-size: 1rem;
+    width: 900px;
+  }
+
+  #md {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text3 {
+    margin-top: 70px;
+    font-size: 1rem;
+    width: 900px;
+  }
+
+  #idl {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text4 {
+    margin-top: 70px;
+    font-size: 1rem;
+    width: 900px;
+  }
+
+  #vintage {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #text5 {
+    margin-top: 70px;
+    font-size: 1rem;
+    width: 900px;
+  }
+
+  #adv {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+
+  #st {
+    position: fixed;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 0.7rem;
+  }
+
+  #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 1310px;
+  }
+
+  #ig {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 70px;
+  }
+
+  #contact {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 1210px;
+  }
+
+  #ml {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 1270px;
+  }
+
+  #btn1 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 770px;
+  }
+
+  #btn2 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 800px;
+  }
+
+  #btn3 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 830px;
+  }
+
+  #btn4 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 860px;
+  }
+
+  #btn5 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 890px;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  main {
+    margin-top: 40px;
+    height: 280px;
+  }
+
+  .titre1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 0.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #text1 {
+    margin-top: 70px;
+    font-size: 1rem;
+    width: 1100px;
+  }
+
+  #ethos {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 5rem;
+  }
+
+  #text2 {
+    margin-top: 70px;
+    font-size: 1rem;
+    width: 1100px;
+  }
+
+  #md {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 5rem;
+  }
+
+  #text3 {
+    margin-top: 70px;
+    font-size: 1rem;
+    width: 1100px;
+  }
+
+  #idl {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 5rem;
+  }
+
+  #text4 {
+    margin-top: 70px;
+    font-size: 1rem;
+    width: 1100px;
+  }
+
+  #vintage {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 5rem;
+  }
+
+  #text5 {
+    margin-top: 70px;
+    font-size: 1rem;
+    width: 1100px;
+  }
+
+  #adv {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 5rem;
+  }
+
+  #st {
+    position: fixed;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 0.7rem;
+  }
+
+  #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 1510px;
+  }
+
+  #ig {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 70px;
+  }
+
+  #contact {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 1410px;
+  }
+
+  #ml {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 1470px;
+  }
+
+  #btn1 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 970px;
+  }
+
+  #btn2 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 1000px;
+  }
+
+  #btn3 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 1030px;
+  }
+
+  #btn4 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 1060px;
+  }
+
+  #btn5 {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 1090px;
+  }
+}

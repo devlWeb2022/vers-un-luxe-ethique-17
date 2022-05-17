@@ -1,0 +1,457 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(/Roboto-Regular.ttf);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+}
+
+#logo {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 80px;
+}
+
+.text1 {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-align: justify;
+  width: 800px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#cp {
+  margin-top: 535px;
+  text-transform: uppercase;
+  position: fixed;
+}
+
+#ig {
+  margin-top: 535px;
+  text-transform: uppercase;
+  margin-left: 800px;
+  position: fixed;
+}
+
+#contact {
+  margin-top: -70px;
+  text-transform: uppercase;
+  margin-left: 1780px;
+  position: fixed;
+}
+
+#ml {
+  margin-top: 535px;
+  text-transform: uppercase;
+  margin-left: 1700px;
+  position: fixed;
+}
+
+.titre1 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  .titre1 {
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #logo {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 40px;
+  }
+
+  #ig {
+    font-size: 0.5rem;
+    margin-top: 30px;
+    text-transform: uppercase;
+    margin-left: 150px;
+  }
+
+  #cp {
+    font-size: 0.5rem;
+    margin-top: 30px;
+    text-transform: uppercase;
+    margin-left: 0px;
+  }
+
+  #contact {
+    font-size: 0.5rem;
+    margin-top: -40px;
+    text-transform: uppercase;
+    margin-left: 310px;
+  }
+
+  #ml {
+    font-size: 0.5rem;
+    margin-top: 30px;
+    text-transform: uppercase;
+    margin-left: 280px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  .titre1 {
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 510px;
+  }
+
+  #ig {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 70px;
+  }
+
+  #contact {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 440px;
+  }
+
+  #ml {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 500px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  .titre1 {
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 710px;
+  }
+
+  #ig {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 70px;
+  }
+
+  #contact {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 640px;
+  }
+
+  #ml {
+    font-size: 0.5rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 700px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  .titre1 {
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 910px;
+  }
+
+  #ig {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 70px;
+  }
+
+  #contact {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 810px;
+  }
+
+  #ml {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 870px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  .titre1 {
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 1110px;
+  }
+
+  #ig {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 70px;
+  }
+
+  #contact {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 1010px;
+  }
+
+  #ml {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 1070px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  .titre1 {
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 1310px;
+  }
+
+  #ig {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 70px;
+  }
+
+  #contact {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 1210px;
+  }
+
+  #ml {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 1270px;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  .titre1 {
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .text1 {
+    font-size: 0.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: justify;
+    width: 300px;
+  }
+
+  #logo {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 1510px;
+  }
+
+  #ig {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  #cp {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 70px;
+  }
+
+  #contact {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 1410px;
+  }
+
+  #ml {
+    font-size: 0.7rem;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-left: 1470px;
+  }
+}
